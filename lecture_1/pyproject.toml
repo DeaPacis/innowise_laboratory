@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lecture_1"
+version = "0.1.0"
+description = "Lecture_1 project with colored output"
+dependencies = [
+    "colorama>=0.4.6",
+]
